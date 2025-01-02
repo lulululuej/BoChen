@@ -1,0 +1,23 @@
+.shopping-site {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .catalog {
+    flex: 1;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+  }
+  
+  .catalog-container img {
+    width: 100%;
+    height: auto;
+  }
+  
