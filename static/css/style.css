@@ -1,0 +1,31 @@
+.shopping-site {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.banner {
+  height: 80px;      /* 控制 banner 高度 */
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;   /* 顯示圖片下半部 */
+}
+
+.catalog {
+  flex: 1;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+.catalog-container img {
+  width: 100%;
+  margin-top: -100px;
+  height: auto;
+}
+  
